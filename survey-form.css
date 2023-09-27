@@ -63,6 +63,46 @@ div.form-builder--item.form-builder--item-input div.option-radio {
 }
 
 
-#_builder-form .ghl-footer {
-    background-color: #000000 !important;
+.hl-app #_builder-form .ghl-footer, .ghl-footer {
+    background-color: #188bf6 !important;
+}
+
+div.form-builder--item.form-builder--item-input {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+div.form-builder--item.form-builder--item-input label {
+   flex: 0 0 100%;
+   text-align: center;
+}
+
+div.form-builder--item.form-builder--item-input div.option-radio {
+   flex: 0 0 45%;
+}
+
+
+#_builder-form .hl-app .ghl-question-set .ghl-question, #_builder-form .ghl-question-set .ghl-question {
+background-color:#ffffff!important;
+}
+
+#_builder-form .form-builder--item input[type=text][class=form-control], #_builder-form .form-builder--item .date-picker-custom-style, textarea, #_builder-form input[type=number], #_builder-form input[type=tel], #_builder-form input[type=email], #_builder-form .multiselect .multiselect__tags, #_builder-form .form-control {
+background-color: #F0F0F0!important;
+}
+
+ 
+
+/* SMS consent line fix */
+
+.loader-container + section #_builder-form .menu-field-wrap .form-builder--item .in-r-c { width: 350px }
+
+@media screen and (max-width:439px)
+{
+div.form-builder--item.form-builder--item-input div.option-radio {flex:100%;}
+
+#_builder-form .ghl-question .option-radio {
+margin-right: 0 !important;}
+
+.loader-container + section #_builder-form .menu-field-wrap .form-builder--item .in-r-c { width: 250px; }
 }
