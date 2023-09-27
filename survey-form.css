@@ -64,7 +64,7 @@ div.form-builder--item.form-builder--item-input div.option-radio {
 
 
 .hl-app #_builder-form .ghl-footer, .ghl-footer {
-    background-color: #{{ custom_values.survey_button_color_hex_code }};
+    background-color: #000000;
 }
 
 div.form-builder--item.form-builder--item-input {
