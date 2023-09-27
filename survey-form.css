@@ -1,6 +1,67 @@
 /*jotform base mods*/
 
+#_builder-form, .hl-app .ghl-survey-form, form#_builder-form.ghl-survey-form {
+    background: transparent !important
+}
+
+#_builder-form #progress_bar, #_builder-form .jtform .ghl-progress-bar-background {
+    display: none
+}
+
+#_builder-form .ghl-question-set .ghl-question {
+    box-shadow: -1px 15px 33px 4px rgb(0 0 0 / 15%);
+   border-radius: 6px;
+   border-color: #fff
+}
+
+#_builder-form .ghl-question .step {
+    display: none
+}
+
+#_builder-form .ghl-question .menu-field-wrap:last-child {
+   display: flex;
+   justify-content: center;
+}
+
+#_builder-form .form-builder--wrap-questions .form-builder--item .option-radio label
+
+{
+ color: #323232 !important
+}
+
+#_builder-form .ghl-question .option-radio
+ {
+    background-color: 
+    white !important;
+}
+
+#_builder-form .option-radio input + label::after
+{
+    --option-radio-bg: #a9b3c6;
+    border: 2px solid var(--option-radio-bg);
+}
+
+#_builder-form .form-builder--wrap-questions .form-builder--item label:nth-child(1)
+{
+    display: flex;
+    justify-content: center;
+}
+
+div.form-builder--item.form-builder--item-input {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+div.form-builder--item.form-builder--item-input label {
+   flex: 0 0 100%;
+   text-align: center;
+}
+
+div.form-builder--item.form-builder--item-input div.option-radio {
+   flex: 0 0 45%;
+}
 
 #_builder-form .ghl-footer {
-    background-color: #ff0000 !important;
+    background-color: #111111 !important;
 }
