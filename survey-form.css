@@ -103,7 +103,7 @@ background-color: #F0F0F0!important;
 
 /* SMS consent line fix */
 
-.in-r-c { width: 350px }
+.in-r-c { width: 350px; }
 
 @media screen and (max-width:439px)
 {
