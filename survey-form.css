@@ -97,7 +97,7 @@ background-color: #F0F0F0!important;
 
 /* SMS consent line fix */
 
-.loader-container + section #_builder-form .menu-field-wrap .form-builder--item .in-r-c { width: 350px }
+.in-r-c { width: 350px }
 
 @media screen and (max-width:439px)
 {
