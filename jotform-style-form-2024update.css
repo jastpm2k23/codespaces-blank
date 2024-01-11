@@ -4,19 +4,19 @@
 /* Updated 1/3/2024 for new page builder */
 
 @import url('//maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
-/* Survey form main */
+/* Survey form main 
 .ghl-form-wrap, .hl-app .ghl-survey-form, form.ghl-form-wrap.ghl-survey-form {
 	background: #d7d7d7 !important;
-} 
+} */
 .ghl-form-wrap, .hl-app .ghl-survey-form.form-submitted, form.ghl-form-wrap.ghl-survey-form.form-submitted {
 	padding: 50px 0px 0px 0px !important;
 }
 
-/* Survey form question container background color 
+/* Survey form question container background color */
 .ghl-form-wrap .hl-app .ghl-question-set .ghl-question,
 .ghl-form-wrap .ghl-question-set .ghl-question {
     background-color: rgba(255, 255, 255, 0.90);
-} */
+} 
 
 /* Survey form footer container background color */
 .ghl-form-wrap .ghl-footer {
