@@ -50,7 +50,7 @@
 div.form-builder--item.form-builder--item-input {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-evenly;
+    justify-content: space-between;
 }
 
 div.form-builder--item.form-builder--item-input label {
@@ -62,7 +62,12 @@ div.form-builder--item.form-builder--item-input div.option-radio {
    flex: 0 0 45%;
 }
 
-
+@media screen and (max-width:439px)
+{
+    div.form-builder--item.form-builder--item-input div.option-radio {
+       flex: 0 0 95%;
+    }
+}
 /* additional edits 
 
 .hl-app #_builder-form .ghl-footer, .ghl-footer {
