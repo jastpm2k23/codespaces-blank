@@ -6,8 +6,7 @@
 @import url('//maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
 /* Survey form main */
 .ghl-form-wrap, .hl-app .ghl-survey-form, form.ghl-form-wrap.ghl-survey-form {
-	/*background: transparent !important;*/
-	background: rgba(255, 255, 255, 0); !important;
+	background: transparent !important;
 } 
 .ghl-form-wrap, .hl-app .ghl-survey-form.form-submitted, form.ghl-form-wrap.ghl-survey-form.form-submitted {
 	padding: 50px 0px 0px 0px !important;
