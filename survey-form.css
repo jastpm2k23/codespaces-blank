@@ -63,7 +63,7 @@ div.form-builder--item.form-builder--item-input div.option-radio {
 }
 
 
-/* additional edits */
+/* additional edits 
 
 .hl-app #_builder-form .ghl-footer, .ghl-footer {
     background-color: #000000;
@@ -83,7 +83,7 @@ div.form-builder--item.form-builder--item-input label {
 div.form-builder--item.form-builder--item-input div.option-radio {
    flex: 0 0 45%;
 }
-
+*/
 
 #_builder-form .hl-app .ghl-question-set .ghl-question, #_builder-form .ghl-question-set .ghl-question {
 background-color:#ffffff!important;
