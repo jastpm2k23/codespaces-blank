@@ -103,16 +103,21 @@ background-color: #F0F0F0!important;
 
 /* SMS consent line fix */
 
-.in-r-c { width: 350px; }
+.in-r-c { width: 350px!important; }
 
 @media screen and (max-width:439px)
 {
-div.form-builder--item.form-builder--item-input div.option-radio {flex:100%;}
+    div.form-builder--item.form-builder--item-input div.option-radio {
+        flex:100%;
+    }
 
-#_builder-form .ghl-question .option-radio {
-margin-right: 0 !important;}
+    #_builder-form .ghl-question .option-radio {
+        margin-right: 0 !important;
+    }
 
-.loader-container + section #_builder-form .menu-field-wrap .form-builder--item .in-r-c { width: 250px; }
+    .loader-container + section #_builder-form .menu-field-wrap .form-builder--item .in-r-c { 
+        width: 250px; 
+    }
 }
 
 
