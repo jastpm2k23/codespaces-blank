@@ -114,3 +114,9 @@ margin-right: 0 !important;}
 
 .loader-container + section #_builder-form .menu-field-wrap .form-builder--item .in-r-c { width: 250px; }
 }
+
+
+/******/
+#_builder-form .field-container { 
+    max-width: 100%!important;
+}
