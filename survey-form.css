@@ -58,6 +58,11 @@ div.form-builder--item.form-builder--item-input {
     flex-wrap: wrap;
     justify-content: space-between;
 }
+
+.hl-app .form-builder--wrap-questions .form-builder--item {
+    width: 100%;
+}
+
 div.form-builder--item.form-builder--item-input label {
    flex: 0 0 100%;
    text-align: center;
