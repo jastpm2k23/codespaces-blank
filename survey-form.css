@@ -121,7 +121,13 @@ background-color: #F0F0F0!important;
 }
 
 
-/******/
+/******
 #_builder-form .field-container { 
     max-width: 100%!important;
+}
+*/
+@media screen and (min-width:770px) {
+    .ghl-form-wrap .ghl-question .option-radio {
+        width:45%!important;
+    }
 }
