@@ -180,5 +180,5 @@ border-radius:8px 8px 0px 0px!important;
 
 .hl-app .ghl-form-wrap .ghl-footer, .ghl-footer {
 border-radius: 0px 0px 8px 8px !important;
-box-shadow: -1px 0px 50px 0px rgb(0 0 0 / 55%);
+box-shadow: -1px 0px 50px 0px rgb(0 0 0 / 55%)!important;
 }
