@@ -141,3 +141,43 @@ background-color: #F0F0F0!important;
         width:45%!important;
     }
 }
+
+
+
+/***** Updates March 21, 2024 ******/
+
+/**** For radio buttons ****/
+#_builder-form .ghl-question .option-radio > div > label {
+    border-radius: 8px;
+    border-color: gray;
+    border-style: solid!important;
+    border-width: 1px!important;
+
+}
+
+/**** for form bottom buttons ****/ 
+.ghl-form-wrap .ghl-button .right-pointing-triangle::before {
+content: 'Next' !important;
+    line-height: 32px !important;
+    font-size: 16px!important;
+    float: right;
+    margin-right: 10px;
+}
+
+.ghl-form-wrap .ghl-button .left-pointing-triangle::before {
+content: 'Previous' !important;
+    line-height: 32px !important;
+font-size: 16px!important;
+    float: left;
+    margin-left: 10px;
+}
+
+
+/**** form radius ****/
+#_builder-form .ghl-question-set .ghl-question {
+border-radius:8px 8px 0px 0px!important;
+}
+
+.hl-app .ghl-form-wrap .ghl-footer, .ghl-footer {
+border-radius: 0px 0px 8px 8px !important
+}
