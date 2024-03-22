@@ -1648,3 +1648,8 @@ textarea,
 .form-builder--item label {
 	display:block !important;
 }
+
+.ghl-form-wrap, .hl-app .ghl-survey-form, form.ghl-form-wrap.ghl-survey-form {
+	background: transparent !important; 
+	/*background: #f7f7f7!important;*/
+} 
