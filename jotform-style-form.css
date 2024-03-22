@@ -1,3 +1,5 @@
+@import url('//maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
+/* Survey form main */
 @import url('https://msg.everypages.com/surveys/styles/base/jotformbase.css');
 .ghl-form-wrap, .hl-app .ghl-survey-form, form.ghl-form-wrap.ghl-survey-form {
 	background: transparent !important; 
