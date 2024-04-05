@@ -111,6 +111,8 @@ div.form-builder--item.form-builder--item-input div.option-radio {
 }
 .hl-app .ghl-form-wrap #_builder-form .form-builder--item input[type=text][class=form-control] {
     background-color: #F0F0F0!important;
+    border-radius: 5px !important;
+    padding: 15px 20px 15px 20px !important;
 }
  #_builder-form > div.ghl-question-set > div.form-builder--wrap-questions.ghl-question.ghl-page-current > div > div:nth-child(2) > div > div.form-builder--item.field-container.form-builder--item-input > div {
      width:100%!important;
