@@ -3,6 +3,9 @@
 #_builder-form, .hl-app .ghl-survey-form, form#_builder-form.ghl-survey-form {
     background: transparent !important
 }
+.ghl-form-wrap:has(.ghl-survey-form), .hl-app .ghl-survey-form, form.ghl-form-wrap.ghl-survey-form {
+    background: transparent !important
+}
 
 #_builder-form #progress_bar, #_builder-form .jtform .ghl-progress-bar-background {
     display: none
