@@ -152,6 +152,10 @@ div.form-builder--item.form-builder--item-input div.option-radio {
     .ghl-form-wrap .ghl-question .option-radio {
         width:45%!important;
     }
+    /**** center form elements ****/
+    .ghl-form-wrap:has(.ghl-survey-form) .ghl-question .option-radio {
+    margin-left:15px;
+}
 }
 
 
@@ -195,7 +199,4 @@ border-radius: 0px 0px 8px 8px !important;
 box-shadow: -1px 0px 35px 0px rgb(0 0 0 / 25%)!important;
 }
 
-/**** center form elements ****/
-.ghl-form-wrap:has(.ghl-survey-form) .ghl-question .option-radio {
-    margin-left:15px;
-}
+
