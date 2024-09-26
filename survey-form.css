@@ -60,6 +60,8 @@ div.form-builder--item.form-builder--item-input {
     display: inline-flex;
     flex-wrap: wrap;
     justify-content: space-between;
+    flex-direction: column;
+
 }
 
 .hl-app .form-builder--wrap-questions .form-builder--item {
