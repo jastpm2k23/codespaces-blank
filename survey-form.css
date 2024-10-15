@@ -147,8 +147,8 @@ div.form-builder--item.form-builder--item-input div.option-radio {
 #_builder-form .field-container { 
     max-width: 100%!important;
 }
-
-@media screen and (min-width:770px) {
+/* @media screen and (min-width:770px) */
+@media screen and (min-width:1440px) {
     .ghl-form-wrap .ghl-question .option-radio {
         width:45%!important;
     }
@@ -159,11 +159,6 @@ div.form-builder--item.form-builder--item-input div.option-radio {
     }
 }
 
-@media screen and (max-width:769px) {
-    .ghl-form-wrap .ghl-question .option-radio {
-        width:95%!important;
-    }
-}
 
 
 
