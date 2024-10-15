@@ -159,6 +159,12 @@ div.form-builder--item.form-builder--item-input div.option-radio {
     }
 }
 
+@media screen and (max-width:769px) {
+    .ghl-form-wrap .ghl-question .option-radio {
+        width:95%!important;
+    }
+}
+
 
 
 /***** Updates March 21, 2024 ******/
