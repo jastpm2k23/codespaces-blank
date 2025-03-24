@@ -201,4 +201,9 @@ border-radius: 0px 0px 8px 8px !important;
 box-shadow: -1px 0px 35px 0px rgb(0 0 0 / 25%)!important;
 }
 
-
+/**** survey padding ****/
+@media only screen and (max-width: 480px) {
+    .ghl-form-wrap:has(.ghl-survey-form) .hl-app .ghl-question-set .ghl-question, .ghl-form-wrap:has(.ghl-survey-form) .ghl-question-set .ghl-question {
+        padding: 30px 30px 20px 30px !important;
+    }
+}
