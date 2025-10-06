@@ -1,7 +1,3 @@
-.hl-app #_builder-form .ghl-footer, 
-.ghl-footer { 
-background-color: #{{ custom_values.survey_button_color_hex_code }} !important; }
-
 #_builder-form, .hl-app .ghl-survey-form, 
 form#_builder-form.ghl-survey-form {
     background: #fff !important
@@ -14,3 +10,7 @@ form#_builder-form.ghl-survey-form {
 #_builder-form .ghl-question-set .ghl-question {
       box-shadow: none!important;
 }
+
+.hl_form-builder--main > div,
+#_builder-form { 
+max-width: 770px !important;}
