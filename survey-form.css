@@ -210,5 +210,9 @@ box-shadow: -1px 0px 35px 0px rgb(0 0 0 / 25%)!important;
 
 /*** ADD new css codes here ***/
 
-
+.thank-you-message {
+  box-shadow:  0px 0px 0px 0px #00000026;
+  background-color: #fff;
+  padding: 40px;
+}
 /*****/
