@@ -14,3 +14,9 @@ form#_builder-form.ghl-survey-form {
 .hl_form-builder--main > div,
 #_builder-form { 
 max-width: 770px !important;}
+
+.thank-you-message {
+  box-shadow:  0px 0px 0px 0px #00000026;
+  background-color: #fff;
+  padding: 40px;
+}
