@@ -1738,3 +1738,222 @@ form.ghl-form-wrap, form.ghl-form-wrap, #_builder-
 .form-builder--item label {
     display:block !important;
 }
+
+
+
+/****************/
+
+/*jotform base mods*/
+
+#_builder-form, .hl-app .ghl-survey-form, form#_builder-form.ghl-survey-form {
+    background: transparent !important
+}
+.ghl-form-wrap:has(.ghl-survey-form), .hl-app .ghl-survey-form, form.ghl-form-wrap.ghl-survey-form {
+    background: transparent !important
+}
+
+#_builder-form #progress_bar, #_builder-form .jtform .ghl-progress-bar-background {
+    display: none
+}
+
+#_builder-form .ghl-question-set .ghl-question {
+    box-shadow: -1px 15px 33px 4px rgb(0 0 0 / 15%);
+   border-radius: 6px;
+   border-color: #fff
+}
+
+#_builder-form .ghl-question .step {
+    display: none
+}
+
+#_builder-form .ghl-question .menu-field-wrap:last-child {
+   display: flex;
+   justify-content: center;
+}
+
+#_builder-form .form-builder--wrap-questions .form-builder--item .option-radio label
+
+{
+ color: #323232 !important
+}
+
+#_builder-form .ghl-question .option-radio
+ {
+    background-color: 
+    white !important;
+}
+
+#_builder-form .option-radio input + label::after
+{
+    --option-radio-bg: #a9b3c6;
+    border: 2px solid var(--option-radio-bg);
+}
+
+#_builder-form .form-builder--wrap-questions .form-builder--item label:nth-child(1)
+{
+    display: flex;
+    justify-content: center;
+}
+/*
+div.form-builder--item.form-builder--item-input {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+*/
+div.form-builder--item.form-builder--item-input {
+    display: inline-flex;
+    /*flex-wrap: wrap;*/
+    justify-content: space-between;
+    flex-direction: column;
+
+}
+
+.hl-app .form-builder--wrap-questions .form-builder--item {
+    width: 100%;
+}
+
+div.form-builder--item.form-builder--item-input label {
+   flex: 0 0 100%;
+   text-align: center;
+}
+/* additional edits 
+div.form-builder--item.form-builder--item-input div.option-radio {
+   flex: 0 0 45%;
+}
+
+
+@media screen and (max-width:590px)
+{
+    div.form-builder--item.form-builder--item-input div.option-radio {
+       flex: 0 0 95%;
+    }
+}
+
+
+.hl-app #_builder-form .ghl-footer, .ghl-footer {
+    background-color: #000000;
+}
+
+div.form-builder--item.form-builder--item-input {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+div.form-builder--item.form-builder--item-input label {
+   flex: 0 0 100%;
+   text-align: center;
+}
+
+div.form-builder--item.form-builder--item-input div.option-radio {
+   flex: 0 0 45%;
+}
+*/
+
+/* Name, email, phone field background colors */
+#_builder-form .hl-app .ghl-question-set .ghl-question, #_builder-form .ghl-question-set .ghl-question {
+    background-color:#ffffff!important;
+}
+
+#_builder-form .form-builder--item input[type=text][class=form-control], #_builder-form .form-builder--item .date-picker-custom-style, textarea, #_builder-form input[type=number], #_builder-form input[type=tel], #_builder-form input[type=email], #_builder-form .multiselect .multiselect__tags, #_builder-form .form-control {
+    background-color: #F0F0F0!important;
+}
+.hl-app .ghl-form-wrap #_builder-form .form-builder--item input[type=text][class=form-control] {
+    background-color: #F0F0F0!important;
+    border-radius: 5px !important;
+    padding: 15px 20px 15px 20px !important;
+}
+ #_builder-form > div.ghl-question-set > div.form-builder--wrap-questions.ghl-question.ghl-page-current > div > div:nth-child(2) > div > div.form-builder--item.field-container.form-builder--item-input > div {
+     width:100%!important;
+ }
+
+/* SMS consent line fix */
+
+.in-r-c { width: 100%!important; }
+
+@media screen and (max-width:439px)
+{
+    div.form-builder--item.form-builder--item-input div.option-radio {
+        flex:100%;
+    }
+
+    #_builder-form .ghl-question .option-radio {
+        margin-right: 0 !important;
+    }
+
+    .loader-container + section #_builder-form .menu-field-wrap .form-builder--item .in-r-c { 
+        width: 250px; 
+    }
+}
+
+
+/*******/
+#_builder-form .field-container { 
+    max-width: 100%!important;
+}
+/* @media screen and (min-width:770px) */
+@media screen and (min-width:990px) {
+    .ghl-form-wrap .ghl-question .option-radio {
+        width:45%!important;
+    }
+    /**** center form elements ****/
+    .ghl-form-wrap:has(.ghl-survey-form) .ghl-question .option-radio {
+        margin-left:23px!important;
+        margin-right:23px!important;
+    }
+}
+
+
+
+
+/***** Updates March 21, 2024 ******/
+
+/**** For radio buttons ****/
+#_builder-form .ghl-question .option-radio > div > label {
+    border-radius: 8px;
+    border-color: gray;
+    border-style: solid!important;
+    border-width: 1px!important;
+
+}
+
+/**** for form bottom buttons ****/ 
+.ghl-form-wrap .ghl-button .right-pointing-triangle::before {
+content: 'Next' !important;
+    line-height: 32px !important;
+    font-size: 16px!important;
+    float: right;
+    margin-right: 10px;
+}
+
+.ghl-form-wrap .ghl-button .left-pointing-triangle::before {
+content: 'Previous' !important;
+    line-height: 32px !important;
+font-size: 16px!important;
+    float: left;
+    margin-left: 10px;
+}
+
+
+/**** form radius ****/
+#_builder-form .ghl-question-set .ghl-question {
+border-radius:8px 8px 0px 0px!important;
+}
+
+.hl-app .ghl-form-wrap .ghl-footer, .ghl-footer {
+border-radius: 0px 0px 8px 8px !important;
+box-shadow: -1px 0px 35px 0px rgb(0 0 0 / 25%)!important;
+}
+
+/**** survey padding ****/
+@media only screen and (max-width: 480px) {
+    .ghl-form-wrap:has(.ghl-survey-form) .hl-app .ghl-question-set .ghl-question, .ghl-form-wrap:has(.ghl-survey-form) .ghl-question-set .ghl-question {
+        padding: 30px 30px 20px 30px !important;
+    }
+}
+
+/*** ADD new css codes here ***/
+
+
+/*****/
